@@ -1,0 +1,53 @@
+@media screen and (max-width: 480px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-pic {
+    margin-right: 75%;
+    width: 70px;
+    height: 70px;
+  }
+
+  .menu {
+    margin-left: 60px;
+    margin-top: -52px;
+  }
+  .menu a {
+    margin: 0px 2px 0px 2px;
+  }
+
+  .cv-download {
+    width: 30%;
+    margin-left: 42%;
+    margin-top: 20px;
+  }
+
+  .cv-download button {
+    font-size: 0.75rem;
+  }
+
+  /* Hero-Section*/
+
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .main {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+  }
+
+  .objective {
+    margin-top: 20%;
+  }
+
+  footer {
+    margin-top: 22px;
+  }
+}

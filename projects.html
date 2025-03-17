@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Projects</title>
+
+  <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css />
+
+</head>
+<style>
+  * {
+    margin: 0%;
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: #88bdbc;
+    height: 100%vh;
+  }
+
+  /*Navbar-Section*/
+
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .img-pic {
+    background-image: url(suhail-pic.png);
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 15px;
+  }
+
+  .menu a {
+    text-decoration: none;
+    margin: 2px 8px 2px;
+    color: black;
+    font-weight: 600;
+    transition: all 0.5s ease-out;
+  }
+
+  .menu a:hover {
+    color: #fff;
+  }
+
+  .cv-download button {
+    background: linear-gradient(90deg,
+        rgba(222, 129, 255, 1) 0%,
+        rgba(229, 43, 231, 1) 35%,
+        rgba(0, 212, 255, 0.9243346997001926) 100%);
+    height: 110%;
+    width: 125%;
+    padding: 5px 0px 5px 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.5s ease-out;
+    border-bottom: 5px solid black;
+  }
+
+  .cv-download i {
+    font-size: 15px;
+    margin-top: 1px;
+  }
+
+  .cv-download button:hover {
+    color: #fff;
+  }
+
+  /* Heor-Main*/
+  .mini-projects {
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 10px;
+    padding: 5px 8px 5px 8px;
+    width: 400px;
+    position: relative;
+    margin: 6% 0% 0% 10%;
+    transition: all 1s ease-out;
+  }
+
+  .mini-projects:hover {
+    border-color: aliceblue;
+  }
+
+  h3 {
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .mini {
+    width: fit-content;
+  }
+
+  .mini a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 5px;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+
+  .mini a:hover {
+    color: #f39c12;
+    text-decoration: underline;
+  }
+
+
+  /*Projects Responsive box*/
+  @media screen and (max-width: 480px) {
+    nav {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .img-pic {
+      margin-right: 75%;
+      width: 70px;
+      height: 70px;
+    }
+
+    .menu {
+      margin-left: 60px;
+      margin-top: -52px;
+    }
+
+    .menu a {
+      margin: 0px 2px 0px 2px;
+    }
+
+    .cv-download {
+      width: 30%;
+      margin-left: 42%;
+      margin-top: 20px;
+    }
+
+    .cv-download button {
+      font-size: 0.75rem;
+    }
+
+    /* Hero*/
+
+    .mini-projects {
+      border: 1px solid rgb(82, 82, 82);
+      border-radius: 10px;
+      padding: 5px 8px 5px 8px;
+      width: 300px;
+      transition: all 0.5s ease-out;
+    }
+
+    .project-box {
+      display: flex;
+    }
+  }
+</style>
+
+<body>
+  <nav>
+    <div class="img-pic">
+
+    </div>
+
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="education.html">Education</a>
+      <a href="about.html">About</a>
+    </div>
+
+    <div class="cv-download">
+      <a href="Suhai Resume.pdf" download="Suhail-resume"><button>Download Resume <i class="fa fa-arrow-circle-down"
+            aria-hidden="true"></i></button></a>
+    </div>
+  </nav>
+
+  <div class="project-box">
+    <div class="mini-projects">
+      <h3>Mini Projects links</h3>
+      <div class="mini">
+        <a href="#">Calculator</a>
+        <a href="#">Counter</a>
+        <a href="#">Amazon Clone</a>
+        <a href="#">LogIn & Register</a>
+        <a href="#">Heart Trail Animation</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

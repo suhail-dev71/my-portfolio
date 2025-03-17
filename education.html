@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Education</title>
+
+  <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css />
+
+
+</head>
+<style>
+  * {
+    margin: 0%;
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: #88bdbc;
+    height: 100%vh;
+  }
+
+  /*Navbar-Section*/
+
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .img-pic {
+    background-image: url(suhail-pic.png);
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 15px;
+  }
+
+  .menu a {
+    text-decoration: none;
+    margin: 2px 8px 2px;
+    color: black;
+    font-weight: 600;
+    transition: all 0.5s ease-out;
+  }
+
+  .menu a:hover {
+    color: #fff;
+  }
+
+  .cv-download button {
+    background: linear-gradient(90deg,
+        rgba(222, 129, 255, 1) 0%,
+        rgba(229, 43, 231, 1) 35%,
+        rgba(0, 212, 255, 0.9243346997001926) 100%);
+    height: 110%;
+    width: 125%;
+    padding: 5px 0px 5px 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.5s ease-out;
+    border-bottom: 5px solid black;
+  }
+
+  .cv-download i {
+    font-size: 15px;
+    margin-top: 1px;
+  }
+
+  .cv-download button:hover {
+    color: #fff;
+  }
+
+  /* Main */
+
+  .main {
+    display: flex;
+    justify-content: center;
+  }
+
+  h3 {
+    font-family: Arial;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 2rem;
+    transition: all 1s ease-out;
+  }
+
+  h3:hover {
+    color: aliceblue;
+    text-decoration: underline;
+  }
+
+  #table {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: fit-content;
+    transition: all 0.5s ease-out;
+  }
+
+  #table:hover {
+    border: 2px solid aliceblue;
+    border-radius: 5px;
+  }
+
+  table,
+  td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+  }
+
+  td {
+    font-weight: 600;
+    transition: all 1s ease-out;
+  }
+
+  th {
+    background: hwb(0 16% 84%);
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 4px;
+    transition: all 1s ease-out;
+  }
+
+  /* Responsive CSS */
+  @media screen and (max-width: 480px) {
+    nav {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .img-pic {
+      margin-right: 75%;
+      width: 70px;
+      height: 70px;
+    }
+
+    .menu {
+      margin-left: 60px;
+      margin-top: -52px;
+    }
+
+    .menu a {
+      margin: 0px 2px 0px 2px;
+    }
+
+    .cv-download {
+      width: 30%;
+      margin-left: 42%;
+      margin-top: 20px;
+    }
+
+    .cv-download button {
+      font-size: 0.75rem;
+    }
+
+    /* Main */
+    .main {
+      display: flex;
+      justify-content: center;
+    }
+
+    h3 {
+      font-family: Arial;
+      margin-top: 5%;
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration-line: underline;
+      transition: all 1s ease-out;
+    }
+
+    #table {
+      border: 1px solid #111;
+      margin-top: 1%;
+      margin-left: 0%;
+      transition: all 0.5s ease-out;
+    }
+
+    #table:hover {
+      border: 1px solid aliceblue;
+      border-radius: 5px;
+    }
+
+    table,
+    td {
+      font-size: 0.85rem;
+      border: 1px solid black;
+      border-collapse: collapse;
+      text-align: center;
+    }
+
+    td {
+      font-size: 8px;
+      font-weight: 400;
+      transition: all 1s ease-out;
+    }
+
+    th {
+      font-size: 10px;
+      background: hwb(0 16% 84%);
+      color: rgb(255, 255, 255);
+      border: 1px solid black;
+      text-align: center;
+      transition: all 1s ease-out;
+    }
+  }
+</style>
+
+<body>
+  <nav>
+    <div class="img-pic">
+
+    </div>
+
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="education.html">Education</a>
+      <a href="about.html">About</a>
+    </div>
+
+    <div class="cv-download">
+      <a href="Suhai Resume.pdf" download="Suhail-resume"><button>Download Resume <i class="fa fa-arrow-circle-down"
+            aria-hidden="true"></i></button></a>
+    </div>
+  </nav>
+
+  <div class="main">
+    <h3>Education</h3>
+  </div>
+
+  <div id="table">
+    <table>
+      <tr>
+        <th>Qualification</th>
+        <th>Institution Name</th>
+        <th>University/Board</th>
+        <th>Durations</th>
+        <th>Percentage</th>
+      </tr>
+
+      <tr>
+        <td>BCA</td>
+        <td>Integral University, Lucknow</td>
+        <td>IUL</td>
+        <td>2024</td>
+        <td>CGPI 7.02</td>
+      </tr>
+
+      <tr>
+        <td>Intermediate</td>
+        <td>M.P Inter College, Kurmi Patti, Deoria</td>
+        <td>UP Board</td>
+        <td>2019</td>
+        <td>59%</td>
+      </tr>
+
+      <td>Matric</td>
+      <td>M.P Inter College, Kurmi Patti, Deoria</td>
+      <td>UP Board</td>
+      <td>2017</td>
+      <td>72%</td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+
+</html>

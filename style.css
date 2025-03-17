@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #88bdbc;
+  height: 100%vh;
+}
+
+/*Navbar-Section*/
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.img-pic {
+  background-image: url(suhail-pic.png);
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  margin: 2px 8px 2px;
+  color: black;
+  font-weight: 600;
+  transition: all 0.5s ease-out;
+}
+
+.menu a:hover {
+  color: #fff;
+}
+
+.cv-download button {
+  background: linear-gradient(
+    90deg,
+    rgba(222, 129, 255, 1) 0%,
+    rgba(229, 43, 231, 1) 35%,
+    rgba(0, 212, 255, 0.9243346997001926) 100%
+  );
+  height: 110%;
+  width: 125%;
+  padding: 5px 0px 5px 0px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.5s ease-out;
+  border-bottom: 5px solid black;
+}
+.cv-download i {
+  font-size: 15px;
+  margin-top: 1px;
+}
+
+.cv-download button:hover {
+  color: #fff;
+}
+
+/* Hero-Section */
+
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+  width: 100%;
+  height: fit-content;
+}
+
+.objective {
+  padding: 10px 8px 8px 8px;
+  font-size: 1rem;
+  width: 300px;
+  height: fit-content;
+
+  text-align: justify;
+}
+
+.main {
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    #7953cd 20%,
+    #00affa 30%,
+    #0190cd 70%,
+    #764ada 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 5s ease-in-out infinite alternate;
+}
+@keyframes textShine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.skills {
+  padding: 10px 8px 8px 8px;
+  width: 300px;
+  height: fit-content;
+  font-size: 1rem;
+}
+
+.skills h2 {
+  margin-left: 10px;
+}
+
+footer {
+  margin-top: 14%;
+}
+footer p {
+  text-align: center;
+  text-decoration: underline;
+}
