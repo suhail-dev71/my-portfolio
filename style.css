@@ -79,7 +79,8 @@ nav {
   font-size: 1rem;
   width: 300px;
   height: fit-content;
-
+  border: 1px solid black;
+  border-radius: 10px;
   text-align: justify;
 }
 
@@ -112,6 +113,8 @@ nav {
   width: 300px;
   height: fit-content;
   font-size: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .skills h2 {
@@ -120,6 +123,7 @@ nav {
 
 footer {
   margin-top: 14%;
+  margin-bottom: 10px;
 }
 footer p {
   text-align: center;
